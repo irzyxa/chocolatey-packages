@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>volume2.portable</id>
+    <title>Volume²</title>
+    <version>1.1.3.247</version>
+    <authors>Alexandr Irza</authors>
+    <owners>Alexandr Irza</owners>
+    <summary>Volume² - advanced Windows volume control</summary>
+    <description>Volume² is an advanced Windows volume control, a complete replacement for the standard Volume Control.</description>
+    <projectUrl>http://irzyxa.wordpress.com</projectUrl>
+    <tags>volume2 volume control</tags>
+    <copyright>Copyright © 2010-2014 Alexandr Irza</copyright>
+    <!--<licenseUrl></licenseUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/irzyxa/chocolatey-packages/master/icons/volume2.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
