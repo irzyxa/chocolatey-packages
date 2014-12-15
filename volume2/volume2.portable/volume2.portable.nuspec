@@ -13,7 +13,7 @@
     <projectUrl>http://irzyxa.wordpress.com</projectUrl>
     <tags>volume2 volume control</tags>
     <copyright>Copyright © 2010-2014 Alexandr Irza</copyright>
-    <!--<licenseUrl></licenseUrl>-->
+    <licenseUrl>http://volumesqr.at.ua/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/irzyxa/chocolatey-packages/master/icons/volume2.png</iconUrl>
     <!--<dependencies>
