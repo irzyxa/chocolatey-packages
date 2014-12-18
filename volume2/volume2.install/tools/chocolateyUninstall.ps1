@@ -3,8 +3,7 @@ $installerType = 'EXE'
 $silentArgs = '/SILENT'
 $validExitCodes = @(0,1)
 
-$processor = Get-WmiObject Win32_Processor
-$is64bit = $processor.AddressWidth -eq 64
+$is64bit = Get-ProcessorBits 64
 
 if ($is64bit) {
   $appDir = "${Env:ProgramFiles(x86)}\Volume2\uninstall.exe"
