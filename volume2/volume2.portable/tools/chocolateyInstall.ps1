@@ -1,5 +1,5 @@
 ﻿$packageName = 'volume2.portable'
-$url = 'http://volumesqr.at.ua/Release/Volume2_1_1_3_247.zip'
+$url = 'http://volumesqr.at.ua/Release/Volume2_1_1_4_347.zip'
 
 try {
   $installDir = Join-Path $env:USERPROFILE "AppData\Roaming"
