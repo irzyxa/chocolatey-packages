@@ -1,10 +1,10 @@
 ﻿$packageName = 'volume2.install' 
 $installerType = 'EXE'
-$url = 'http://volumesqr.at.ua/Release/Setup_Volume2_1_1_5_404.zip'
+$url = 'http://volumesqr.at.ua/Release/Setup_Volume2_1_1_6_428.zip'
 $silentArgs = '/silent RunProgramSettings_off'
 $validExitCodes = @(0,1)
-$tepmZip = Join-Path $env:TEMP "Setup_Volume2_1_1_5_404.zip"
-$tempExe = Join-Path $env:TEMP "Setup_Volume2_1_1_5_404.exe"
+$tepmZip = Join-Path $env:TEMP "Setup_Volume2_1_1_6_428.zip"
+$tempExe = Join-Path $env:TEMP "Setup_Volume2_1_1_6_428.exe"
 
 try {
   Get-ChocolateyWebFile "$packageName" $tepmZip "$url"
