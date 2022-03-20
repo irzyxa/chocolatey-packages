@@ -1,6 +1,6 @@
 ﻿$packageName = 'volume2.install' 
 $installerType = 'EXE'
-$url = 'http://volumesqr.at.ua/Release/Setup_Volume2_1_1_7_449.zip'
+$url = 'https://drive.google.com/uc?export=download&id=1lIN2uZfMqiTJCJ2LaIoI5EYOv8tefiKC'
 $silentArgs = '/silent RunProgramSettings_off'
 $validExitCodes = @(0,1)
 $tepmZip = Join-Path $env:TEMP "Setup_Volume2_1_1_7_449.zip"
