@@ -1,5 +1,5 @@
 ﻿$packageName = 'volume2.portable'
-$url = 'https://drive.google.com/uc?export=download&id=1lIN2uZfMqiTJCJ2LaIoI5EYOv8tefiKC'
+$url = 'https://github.com/irzyxa/Volume2/releases/download/v1.1.7/Volume2_1_1_7_449.zip'
 
 try {
   $installDir = Join-Path $env:USERPROFILE "AppData\Roaming"
