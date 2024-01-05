@@ -7,6 +7,5 @@ try {
         Remove-Item "$($appDir)" -Recurse -Force
     }
 } catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
     throw
 }

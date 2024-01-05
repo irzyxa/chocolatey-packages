@@ -14,6 +14,5 @@ if ($is64bit) {
 try {
   Uninstall-ChocolateyPackage $packageName "$installerType" "$silentArgs" "$appDir" -validExitCodes $validExitCodes
 } catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
     throw
 }
